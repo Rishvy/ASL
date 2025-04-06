@@ -10,9 +10,9 @@ import queue
 import time
 
 # Load model, scaler, and alphabet mapping
-model = tf.keras.models.load_model("/Users/user/Desktop/cnn2/flask/hand_sign_cnn_model.h5")
-scaler = joblib.load("/Users/user/Desktop/cnn2/flask/scaler.pkl")
-alphabet_mapping = joblib.load("/Users/user/Desktop/cnn2/flask/alphabet_mapping.pkl")
+model = tf.keras.models.load_model("hand_sign_cnn_model.h5")
+scaler = joblib.load("scaler.pkl")
+alphabet_mapping = joblib.load("alphabet_mapping.pkl")
 reverse_mapping = {v: k for k, v in alphabet_mapping.items()}
 
 
