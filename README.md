@@ -21,14 +21,6 @@ ASL/
 
 ---
 
-## 🗃️ Dataset
-
-- Dataset used: **ASL Alphabet** images  
-- Number of classes: 29 (A-Z including 'space', 'del', 'nothing')  
-- Each class has thousands of labeled images  
-- Source: [Kaggle - ASL Alphabet](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)  
-
----
 
 ## 🧠 Model Architecture
 
